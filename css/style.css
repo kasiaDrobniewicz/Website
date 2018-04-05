@@ -1,0 +1,126 @@
+
+.flex-container {
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container > * {
+  padding: 15px;
+  flex: 1 100%;
+  flex: 1 100%;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:30px;		
+  background: grey;
+  color: wheat;
+}
+
+.article {
+  background: white;
+  color: grey;
+  text-align: center;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+.button {border-radius: 12px;}
+
+body {
+  background-image:url(../images/zegarek.jpg);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  background: grey;color:wheat;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {background: white;}
+
+.nav ul {
+  background: wheat;
+  color: gray;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.nav ul a {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+}
+
+nav {
+  background-color: wheat;
+  overflow: hidden;
+}
+
+nav a {
+  float: center;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: grey;
+  color: wheat;
+}
+
+nav a.active {
+  background-color: grey;
+  color: wheat;
+}
+
+.formularz {
+  width:260px; 
+  margin:0 auto; 
+  background-color:#fff; 
+  border:2px solid #ccc; 
+  border-radius:10px; 
+  padding:20px; 
+  margin-top:50px; 
+}
+
+.formularz label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold; 
+  text-transform: uppercase;
+  font-size:12px;
+  color:#555555; 
+}
+
+.formularz textarea,
+.formularz input {
+  padding:5px; 
+  border-radius:3px; 
+  border:1px solid #ccc;
+  margin-bottom:25px; 
+  width:245px; 
+}
+
+.formularz input#submit {
+  width:255px; 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+
+
+
